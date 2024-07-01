@@ -4,62 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f5c2be3-7b89-4346-baef-1623c06da7d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/book-directory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31495141-8744-487c-8e22-c24fcca22ff5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31495141-8744-487c-8e22-c24fcca22ff5/storage_v2/_src_/schema/book_directory.l4Q14Q.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31495141-8744-487c-8e22-c24fcca22ff5/storage_v2/_src_/schema/food.XgwwAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31495141-8744-487c-8e22-c24fcca22ff5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31495141-8744-487c-8e22-c24fcca22ff5/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31495141-8744-487c-8e22-c24fcca22ff5/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31495141-8744-487c-8e22-c24fcca22ff5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31495141-8744-487c-8e22-c24fcca22ff5/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/api_platform.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/nelmio_cors.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/api_platform.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20240729111134.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/1337e46bb5acbc55cdafd3120db01bb9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/9dae98fa742a145d995e16951f3550b6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/fbc4df88774106a51a508a79737db0f8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/test-image-updated.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/test-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApiResource/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ApiAuthorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ApiBookController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AuthorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BookController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Author.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Book.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/AuthorRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/BookRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/author/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/author/list.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/books_by_author.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/edit_list.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/list.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/search.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/show_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+    <list default="true" id="9f5c2be3-7b89-4346-baef-1623c06da7d9" name="Changes" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +18,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="ccd8064f-3908-4562-bfce-c29f0ae7b131" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -283,8 +226,16 @@
       <updated>1719577467326</updated>
       <workItem from="1719577468566" duration="2900000" />
       <workItem from="1719580427723" duration="22710000" />
-      <workItem from="1719819177683" duration="11291000" />
+      <workItem from="1719819177683" duration="11333000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1719836433065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719836433065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,5 +251,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>
