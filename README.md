@@ -13,7 +13,7 @@ Instructions:
 * Clone the repository
 git clone <https://github.com/marchenkko/book-directory.git>
 
-cd <book-directory>
+cd "book-directory"
 
 * Install dependencies
 composer install
