@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Book{% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <h1>Edit Book</h1>
+        {% if error %}
+            <div class="alert alert-danger">{{ error }}</div>
+        {% endif %}
+        <form action="{{ path('book_edit', { 'id': book.id }) }}" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" name="title" value="{{ book.title }}" required>
+            </div>
+            <div class="form-group">
+                <label for="shortDescription">Short Description</label>
+                <textarea class="form-control" id="shortDescription" name="shortDescription" rows="3" required>{{ book.shortDescription }}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="publicationDate">Publication Date</label>
+                <input type="date" class="form-control" id="publicationDate" name="publicationDate" value="{{ book.publicationDate|date('Y-m-d') }}" required>
+            </div>
+            <div class="form-group">
+                <label for="authors">Authors</label>
+                <select multiple class="form-control" id="authors" name="authors[]">
+                    {% for author in authors %}
+                        <option value="{{ author.id }}" {% if book.authors.contains(author) %}selected{% endif %}>{{ author.firstName }} {{ author.middleName }} {{ author.lastName }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="image">Book Cover Image</label>
+                <input type="file" class="form-control-file" id="image" name="image">
+                {% if book.image %}
+                    <small class="form-text text-muted">Current Image: {{ book.image }}</small>
+                {% endif %}
+            </div>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+        </form>
+    </div>
+{% endblock %}

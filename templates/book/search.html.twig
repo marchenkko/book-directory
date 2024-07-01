@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Search Books{% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <h1>Search Books by Author's Last Name</h1>
+        {% if error is defined %}
+            <div class="alert alert-danger">{{ error }}</div>
+        {% endif %}
+        <form action="{{ path('book_search') }}" method="post">
+            <div class="form-group">
+                <label for="lastName">Author's Last Name</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+{% endblock %}

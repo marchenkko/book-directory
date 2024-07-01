@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Book Details{% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <h1>{{ book.title }}</h1>
+        <p><strong>Description:</strong> {{ book.shortDescription }}</p>
+        <p><strong>Publication Date:</strong> {{ book.publicationDate|date('Y-m-d') }}</p>
+        <p><strong>Authors:</strong>
+            {% for author in book.authors %}
+                {{ author.firstName }} {{ author.middleName }} {{ author.lastName }}{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+        {% if book.image %}
+            <div>
+                <img src="{{ asset('uploads/images/' ~ book.image) }}" alt="{{ book.title }}" class="img-fluid">
+            </div>
+        {% endif %}
+        <a href="{{ path('book_edit_form', { 'id': book.id }) }}" class="btn btn-primary mt-3">Edit Book</a>
+        <a href="{{ path('book_list') }}" class="btn btn-secondary mt-3">Back to List</a>
+    </div>
+{% endblock %}

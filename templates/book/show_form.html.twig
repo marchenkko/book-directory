@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}View Book{% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <h1>View Book Details</h1>
+        <form action="{{ path('book_show') }}" method="get">
+            <div class="form-group">
+                <label for="id">Book ID</label>
+                <input type="number" class="form-control" id="id" name="id" required>
+            </div>
+            <button type="submit" class="btn btn-primary">View Book</button>
+        </form>
+    </div>
+{% endblock %}

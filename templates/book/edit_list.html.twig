@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Books{% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <h1>Edit Books</h1>
+        <ul class="list-group">
+            {% for book in books %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    {{ book.title }}
+                    <a href="{{ path('book_edit_form', { 'id': book.id }) }}" class="btn btn-warning btn-sm">Edit</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
